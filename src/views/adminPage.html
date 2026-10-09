@@ -1484,7 +1484,7 @@ const lunarBiz = {
         let left = rect.left;
 
         if (rect.bottom + tooltipHeight > viewportHeight) {
-          top = rect.top + scrollTop - tooltipHeight - 8;
+          top = rect.top  - tooltipHeight - 8;
           tooltip.style.transform = 'translateY(10px)';
           tooltip.classList.add('tooltip-above');
         } else {
